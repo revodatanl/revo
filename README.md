@@ -19,3 +19,7 @@ aws s3 sync --acl public-read ./assets/ s3://revo-public/
 3. Have queries with Status values like `1` and `2`
 4. Go to your column in the Visualization editor and set **Diplay as** to **Image**
 5. Set URL Template to **https://revo-public.s3.eu-central-1.amazonaws.com/icons/status/{{status}}.png**
+
+## Sources
+- [Material UI icons](https://github.com/mui/material-ui/tree/master/packages/mui-icons-material/material-icons)
+- [Emojis](https://github.com/cj1128/emoji-images)
