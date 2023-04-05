@@ -23,3 +23,7 @@ aws s3 sync --acl public-read ./assets/ s3://revo-public/
 ## Sources
 - [Material UI icons](https://github.com/mui/material-ui/tree/master/packages/mui-icons-material/material-icons)
 - [Emojis](https://github.com/cj1128/emoji-images)
+- [PowerBI Icons](https://github.com/microsoft/PowerBI-Icons)
+
+
+https://revo-public.s3.eu-central-1.amazonaws.com/powerbi/PNG/Dataflow.png
