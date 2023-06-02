@@ -1,0 +1,26 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionMethod": "Hostname and Token",
+            "catalog": "production",
+            "previewLimit": 100,
+            "driver": "Databricks",
+            "name": "production",
+            "group": "BridgeFund",
+            "host": "dbc-d0593d7e-6cb1.cloud.databricks.com",
+            "path": "/sql/1.0/warehouses/91da9f1e69985e3f"
+        },
+        {
+            "connectionMethod": "Hostname and Token",
+            "catalog": "team_technology",
+            "previewLimit": 100,
+            "driver": "Databricks",
+            "name": "team_technology",
+            "group": "BridgeFund",
+            "host": "dbc-d0593d7e-6cb1.cloud.databricks.com",
+            "path": "/sql/1.0/warehouses/91da9f1e69985e3f"
+        }
+    ],
+    "python.envFile": "${workspaceFolder}/.databricks/.databricks.env",
+    "databricks.python.envFile": "${workspaceFolder}/.env"
+}
